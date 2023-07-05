@@ -5,7 +5,6 @@ import '../styles/general.sass';
 import { AuthContextProvider } from '../context/AuthContext';
 const noAuthRequired = ['/', '/login', '/signup']
 import { useRouter } from 'next/router'
-// import ProtectedRoute from ''
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
   return (

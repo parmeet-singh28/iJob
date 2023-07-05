@@ -30,15 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/events": [
+    "/events/[cat]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/events.js"
+      "static/chunks/pages/events/[cat].js"
     ],
-    "/login": [
+    "/events/[cat]/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/login.js"
+      "static/chunks/pages/events/[cat]/[id].js"
+    ],
+    "/signup": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/signup.js"
     ]
   },
   "ampFirstPages": []

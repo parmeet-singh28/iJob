@@ -30,10 +30,7 @@ export const Header = () => {
               <li>
                 {user ? (
                   <div>
-                      {/* <Link href="/login" onClick={()=>{
-                        logout(),
-                        router.push('/login')
-                      }}>Logout</Link> */}
+      
                   </div>
                 ) : (
                   <Link href="/login" passHref>
