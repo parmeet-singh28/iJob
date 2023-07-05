@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/events/[cat].js"
     ],
-    "/events/[cat]/[id]": [
+    "/login": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/events/[cat]/[id].js"
+      "static/chunks/pages/login.js"
     ],
     "/signup": [
       "static/chunks/webpack.js",

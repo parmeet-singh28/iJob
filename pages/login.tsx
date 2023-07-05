@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useAuth } from '../context/AuthContext'
-
+import Link from 'next/link'
 const Login = () => {
   const router = useRouter()
   const { user, login } = useAuth()
@@ -62,7 +62,7 @@ const Login = () => {
           Login
         </Button>
       </Form>
-        <p className="signup-link">Don't have an account? <a href="/signup">Sign up</a></p>
+        <p className="signup-link">Not have an account? <Link href="/signup">Sign up</Link></p>
     </div>
   )
 }
