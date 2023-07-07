@@ -41,7 +41,7 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        <p className="title"> Get Jobs that fits you</p>
+        <p className="title"> Get Jobs</p>
       </div>
     </header>
   );
